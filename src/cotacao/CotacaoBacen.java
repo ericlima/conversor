@@ -48,7 +48,7 @@ public class CotacaoBacen {
 		vf = qf.getParityBuy();
 		vt = qt.getParityBuy();
 		
-		retorno = vf.divide(vt, 8, RoundingMode.HALF_UP);
+		retorno = vf.divide(vt, 2, RoundingMode.HALF_UP);
 		
 		return retorno;
 		
